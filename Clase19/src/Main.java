@@ -4,9 +4,8 @@ public class Main {
 	public static void main(String[] args) {
 		//ejercicio_n1();
 		//ejercicio_n2(12,6);//ALTURA - ANCHO
-		//ejercicio_n3();
-		
-		System.out.println("prueba");;
+		//ejercicio_n3();		
+		System.out.println("prueba");
 	}
 	public static void ejercicio_n3() {
 		int [] a = { 1,2,3,1,
