@@ -1,0 +1,72 @@
+package clasenumero2;
+
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub		
+		//area
+		double r =15;
+		double pi = Math.PI;
+		double area_circulo=(r*r)*pi;
+		//System.out.println(area_circulo);
+		
+		//circunferencia		
+		double r2 = 15;	
+		double circunferencia = 2*pi*r2;
+		 //System.out.println(circunferencia);
+		
+		//iguales
+		double nuno = 15;
+		double ndos = 15;
+		if(nuno == ndos ) {
+			//System.out.println("son iguales");
+		}
+		
+		// multiplo
+		int res;
+		int numero1 = 21;
+		int numero2 = 3;
+		res = numero1%numero2;		 
+		if (res==0) {
+		  //System.out.println(numero1 + " es múltiplo de " + numero2);
+		}else {
+		  //System.out.println(numero1 + " no es múltiplo de " + numero2);
+	}
+		//numero mayor
+		int number1=10;
+		int number2=20;
+		if(number1 >number2) {
+			//System.out.println(number1);
+		}else {
+			//System.out.println(number2);
+		}
+		
+		//ecuación cuadrática
+		int a = 2;
+		int b = 4;
+		int c = -8;
+		int d = (b*b)-(4*a*c);		
+		int e=2*a;		
+		if(d==0) {
+			//System.out.println("x1 = x2 ="+(- b / e));
+		}
+		
+		int edad = 18;
+		char genero = 'F';
+		boolean varon = edad>=21 && genero =='M';
+		boolean mujer = edad>=18 && genero =='F';
+		if(varon||mujer) {
+			System.out.print("ingresa");
+		}else {
+			if(genero=='M'){
+				System.out.print("necesita tener mas de 21");
+			}else {
+				System.out.print("necesita tener mas de 18");
+			}
+			System.out.print("no ingresa");
+			
+		}
+		
+ }
+}
